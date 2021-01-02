@@ -1,1 +1,1 @@
-# This ruby exercises are from theOdonProject
+# This ruby exercises are from theOdinProject
