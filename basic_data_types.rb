@@ -18,3 +18,52 @@ puts(2 ** 2)
 # Modulous (find the remainder of or division)
 puts(8 % 2)
 puts(23 % 3)
+
+# CONVERTING BASIC NUMER TYPES TO INTEGER OR FLOAT
+puts(3.0.to_i) # to integer
+puts(3.to_f) # to float
+
+
+# STRINGS
+# -> "" or '' quotes will work
+# STRIN
+puts("Hello " + "anybody " + "in there")
+puts()
+
+
+# STRING INTERPOLATION
+name = "Odin!"
+
+puts("Hello, #{name}") #=> "Hello, Odin"
+puts('Hello, #{name}') #=> 'Hello, #{name}'
+
+
+# COMMON STRING METHODS
+# captalize the word
+puts("hello".capitalize) #=> "Hello"
+
+#include?
+puts("hello".include?("lo")) #=> true
+puts("hello".include?("lglo")) #=> false
+
+
+#UPCASE
+puts("jon snow".upcase) #=> JON SNOW
+
+#downcase
+puts("JON SNOW".downcase) #=> jon snow
+
+#empty?
+puts("hello".empty?) #=> false
+puts("".empty?) #=> true
+
+#length
+puts("hello".length) #=> 5
+
+#reverse
+puts("sansa stark".reverse) #=> krats asnas
+
+#split
+puts("Game of Thrones".split) #=> ["Game","of","Thrones"] splited result
+puts("Game of Thrones".split("")) #=> split every letter
+
