@@ -67,3 +67,20 @@ puts("sansa stark".reverse) #=> krats asnas
 puts("Game of Thrones".split) #=> ["Game","of","Thrones"] splited result
 puts("Game of Thrones".split("")) #=> split every letter
 
+#strip the spaces
+puts(" hello, worlds    ".strip) #=> remove spaces
+
+# CONVERTING OTHER OBJECTS TO STRING
+# integer number to string
+puts(5.to_s)  #=> "5"
+
+#nil to string
+puts(nil.to_s) #=> ""
+
+# symbol to string
+puts(:symbol.to_s) #=> "symbol"
+
+# SYMBOLS VS STRING
+puts("string" == "string") #=> true
+puts("string".object_id == "string".object_id) #=> false
+puts(:symbol.object_id == :symbol.object_id) #=> true
